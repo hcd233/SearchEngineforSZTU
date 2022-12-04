@@ -122,17 +122,7 @@ public class BoolSearchModel extends InverseIndex{ // 继承自倒排索引类�
     private ArrayList<String> FuzzyInpStr(String str) throws IOException {
         //将输入的关键词str 进行模糊化处理 如蔡元哲 = 蔡 + 元 + 哲 + 蔡元 + 元哲 + 蔡元哲...
         //TODO 模糊化关键词算法，我实现了个最基础的，效果不佳，需要在这里重写搜索算法
-//        ArrayList<String> res = new ArrayList<>();
-//        for(int i=0;i<inp.length();i++){
-//            for(int p=0;p<=inp.length()-i;p++){
-//                if(i!=0)
-//                    res.add(inp.substring(p,i+p));
-//            }
-//        }
-//        res.add(inp);
-//        //System.out.println(res);
-//        return res;
-        System.out.println();
+        //System.out.println();
         StringReader sr = new StringReader(str);
         IKSegmenter ik = new IKSegmenter(sr,true);
         Lexeme lex;
@@ -143,13 +133,18 @@ public class BoolSearchModel extends InverseIndex{ // 继承自倒排索引类�
         }
         return res;
     }
-    public void ExactSearch(String str){ // 精确搜索，不需要改动
-        ArrayList<String> result = QueryArray(str);
-        if(result != null){
-            double freq = QueryFrequency(str);
-            System.out.print("Contained:"+result+" ");
-            System.out.println("frequency:"+String.format("%.6f",freq));
-            DisplayContent(result,str);
+    public void ExactSearch(String str) throws IOException { // 精确搜索，不需要改动
+        ArrayList<String> strarr = FuzzyInpStr(str);
+        StringBuilder strb = new StringBuilder();
+        for(int i=0;i<strarr.size();i++){
+            strb.append(strarr.get(i));
+            if(i!=strarr.size()-1)
+                strb.append(" & ");
+        }
+        ArrayList<String> bls = BoolSearch(strb.toString().split(" "));
+        System.out.println(bls);
+        for(String s:bls){
+            DisplayContent(s,strarr.get((strarr.size() -1)/2));
         }
     }
     public void FuzzySearch(String str) throws IOException { //
@@ -165,7 +160,9 @@ public class BoolSearchModel extends InverseIndex{ // 继承自倒排索引类�
         ArrayList<String> bls = BoolSearch(strb.toString().split(" "));
         System.out.println(bls);
         for(String s:strarr){
-            DisplayContent(bls,s);
+            for(String file:bls){
+                DisplayContent(file,s);
+            }
         }
     }
 }
