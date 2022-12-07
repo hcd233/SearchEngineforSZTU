@@ -1,0 +1,15 @@
+[Log:Mon Dec 05 23:28:48 CST 2022] https://qsa.sztu.edu.cn/info/1086/1373.htm ./data/QSA/黄理纳_教授.txt
+[Log:Mon Dec 05 23:31:43 CST 2022] https://qsa.sztu.edu.cn/info/1086/2145.htm ./data/QSA/杨兴兴_信息技术主管.txt
+[Log:Mon Dec 05 23:31:43 CST 2022] https://qsa.sztu.edu.cn/info/1086/2147.htm ./data/QSA/吴捷妤_科研主管.txt
+[Log:Mon Dec 05 23:31:43 CST 2022] https://qsa.sztu.edu.cn/info/1086/2148.htm ./data/QSA/陈国芬_校企合作主管.txt
+[Log:Mon Dec 05 23:31:43 CST 2022] https://qsa.sztu.edu.cn/info/1086/2149.htm ./data/QSA/徐子渠.txt
+[Log:Mon Dec 05 23:31:43 CST 2022] https://qsa.sztu.edu.cn/info/1086/2150.htm ./data/QSA/魏玫.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2151.htm ./data/QSA/刘宏照.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2153.htm ./data/QSA/杜佳婷.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2155.htm ./data/QSA/刘娜_教务秘书.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2156.htm ./data/QSA/黄丽华_国际合作主管.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2157.htm ./data/QSA/张晓刚_客座教授.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2158.htm ./data/QSA/张纲_客座教授.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2159.htm ./data/QSA/欧阳劲松_客座教授.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2160.htm ./data/QSA/邝兵_客座教授.txt
+[Log:Mon Dec 05 23:31:44 CST 2022] https://qsa.sztu.edu.cn/info/1086/2161.htm ./data/QSA/路宏峰_客座教授.txt

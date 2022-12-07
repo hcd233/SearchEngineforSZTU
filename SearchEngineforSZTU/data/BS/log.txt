@@ -1,0 +1,11 @@
+[Log:Mon Dec 05 23:45:33 CST 2022] https://bs.sztu.edu.cn/info/1485/2405.htm ./data/BS/王周玮.txt
+[Log:Mon Dec 05 23:46:18 CST 2022] https://bs.sztu.edu.cn/info/1418/2099.htm ./data/BS/林芳莹.txt
+[Log:Mon Dec 05 23:46:25 CST 2022] https://bs.sztu.edu.cn/info/1418/2099.htm ./data/BS/林芳莹.txt
+[Log:Mon Dec 05 23:46:53 CST 2022] https://bs.sztu.edu.cn/info/1418/2099.htm ./data/BS/林芳莹.txt
+[Log:Mon Dec 05 23:47:11 CST 2022] https://bs.sztu.edu.cn/info/1414/1203.htm ./data/BS/霍尔格·哈顿旺(Holger Haldenwang).txt
+[Log:Mon Dec 05 23:49:02 CST 2022] https://bs.sztu.edu.cn/info/1414/1203.htm ./data/BS/霍尔格·哈顿旺(Holger Haldenwang).txt
+[Log:Mon Dec 05 23:49:25 CST 2022] https://bs.sztu.edu.cn/info/1418/2099.htm ./data/BS/林芳莹.txt
+[Log:Mon Dec 05 23:50:29 CST 2022] https://bs.sztu.edu.cn/info/1418/2099.htm ./data/BS/林芳莹.txt
+[Log:Mon Dec 05 23:50:46 CST 2022] https://bs.sztu.edu.cn/info/1414/1203.htm ./data/BS/霍尔格·哈顿旺(Holger Haldenwang).txt
+[Log:Mon Dec 05 23:51:03 CST 2022] https://bs.sztu.edu.cn/info/1418/1539.htm ./data/BS/李杰.txt
+[Log:Tue Dec 06 00:07:30 CST 2022] https://bs.sztu.edu.cn/info/1414/1203.htm ./data/BS/霍尔格·哈顿旺(Holger Haldenwang).txt
